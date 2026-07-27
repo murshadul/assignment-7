@@ -8,8 +8,8 @@ const Stats = () => {
       const {call,text,video}=useContext(ShowContext);
     
     const data = [
-  { name: 'text', value:call.length, fill: '#0088FE' },
-  { name: 'call', value:text.length, fill: '#00C49F' },
+  { name: 'text', value:text.length, fill: '#0088FE' },
+  { name: 'call', value:call.length, fill: '#00C49F' },
   { name: 'video', value: video.length, fill: '#FFBB28' },
 
 ];
