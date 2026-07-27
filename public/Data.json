@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Ava Mitchell",
+    "picture": "https://i.pravatar.cc/400?img=47",
+    "email": "ava.mitchell@example.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met during university orientation. We enjoy hiking, coffee, and exploring new places together.",
+    "goal": 14,
+    "next_due_date": "2025-07-20"
+  },
+  {
+    "id": 2,
+    "name": "Liam Carter",
+    "picture": "https://i.pravatar.cc/400?img=12",
+    "email": "liam.carter@example.com",
+    "days_since_contact": 6,
+    "status": "on-track",
+    "tags": ["work", "tech"],
+    "bio": "A former coworker who loves discussing software development, startups, and new technology.",
+    "goal": 14,
+    "next_due_date": "2025-07-28"
+  },
+  {
+    "id": 3,
+    "name": "Sophia Bennett",
+    "picture": "https://i.pravatar.cc/400?img=44",
+    "email": "sophia.bennett@example.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["school", "best friend"],
+    "bio": "We have been friends since high school and often share books, music, and life updates.",
+    "goal": 14,
+    "next_due_date": "2025-07-26"
+  },
+  {
+    "id": 4,
+    "name": "Noah Wilson",
+    "picture": "https://i.pravatar.cc/400?img=33",
+    "email": "noah.wilson@example.com",
+    "days_since_contact": 25,
+    "status": "overdue",
+    "tags": ["childhood", "sports"],
+    "bio": "A childhood friend who enjoys football, weekend trips, and watching live sports together.",
+    "goal": 21,
+    "next_due_date": "2025-07-15"
+  },
+  {
+    "id": 5,
+    "name": "Emma Rodriguez",
+    "picture": "https://i.pravatar.cc/400?img=32",
+    "email": "emma.rodriguez@example.com",
+    "days_since_contact": 4,
+    "status": "on-track",
+    "tags": ["work", "creative"],
+    "bio": "A creative colleague who enjoys photography, design, and discovering new restaurants.",
+    "goal": 14,
+    "next_due_date": "2025-07-30"
+  },
+  {
+    "id": 6,
+    "name": "James Anderson",
+    "picture": "https://i.pravatar.cc/400?img=68",
+    "email": "james.anderson@example.com",
+    "days_since_contact": 10,
+    "status": "almost due",
+    "tags": ["college", "travel"],
+    "bio": "Met in college and became close through our shared interest in traveling and photography.",
+    "goal": 14,
+    "next_due_date": "2025-07-24"
+  },
+  {
+    "id": 7,
+    "name": "Olivia Thompson",
+    "picture": "https://i.pravatar.cc/400?img=49",
+    "email": "olivia.thompson@example.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["neighbor", "close friend"],
+    "bio": "A friendly neighbor who enjoys cooking, gardening, and relaxing conversations over tea.",
+    "goal": 14,
+    "next_due_date": "2025-08-01"
+  },
+  {
+    "id": 8,
+    "name": "Ethan Brooks",
+    "picture": "https://i.pravatar.cc/400?img=11",
+    "email": "ethan.brooks@example.com",
+    "days_since_contact": 20,
+    "status": "overdue",
+    "tags": ["university", "gaming"],
+    "bio": "A university friend who enjoys multiplayer games, movies, and talking about new gadgets.",
+    "goal": 14,
+    "next_due_date": "2025-07-18"
+  }
+]
