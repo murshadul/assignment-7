@@ -1,40 +1,40 @@
-import React, { useContext } from 'react';
-import { Legend, Pie, PieChart, Tooltip } from 'recharts';
-import { ShowContext } from '../../context/ShowContext';
-import useHooks from '../../hooks/useHooks';
+import React, { useContext } from "react";
+import {
+  PieChart,
+  Pie,
+  Tooltip,
+  Legend,
+  ResponsiveContainer,
+} from "recharts";
+import { ShowContext } from "../../context/ShowContext";
 
 const Stats = () => {
+  const { call, text, video } = useContext(ShowContext);
 
-      const {call,text,video}=useContext(ShowContext);
-    
-    const data = [
-  { name: 'text', value:text.length, fill: '#0088FE' },
-  { name: 'call', value:call.length, fill: '#00C49F' },
-  { name: 'video', value: video.length, fill: '#FFBB28' },
+  const data = [
+    { name: "Call", value: call.length, fill: "#00C49F" },
+    { name: "Text", value: text.length, fill: "#0088FE" },
+    { name: "Video", value: video.length, fill: "#FFBB28" },
+  ];
 
-];
-
-    return (
-        <div className='container mx-auto shadow my-8 flex justify-center items-center  py-6'>
-              <PieChart style={{ width: '100%', maxWidth: '500px', maxHeight: '80vh', aspectRatio: 1 }} responsive>
+  return (
+    <div className="container mx-auto shadow my-8 py-6 h-[400px]">
+      <ResponsiveContainer width="100%" height="100%">
+        <PieChart>
           <Pie
-        data={data}
-        innerRadius="80%"
-        outerRadius="100%"
-        // Corner radius is the rounded edge of each pie slice
-        cornerRadius="50%"
-        fill="#8884d8"
-        // padding angle is the gap between each pie slice
-        paddingAngle={5}
-        dataKey="value"
-        isAnimationActive={true}
-      />
-      <Tooltip></Tooltip>
-    <Legend></Legend>
-    </PieChart>
-    
-        </div>
-    );
+            data={data}
+            dataKey="value"
+            nameKey="name"
+            innerRadius={70}
+            outerRadius={110}
+            paddingAngle={5}
+          />
+          <Tooltip />
+          <Legend />
+        </PieChart>
+      </ResponsiveContainer>
+    </div>
+  );
 };
 
 export default Stats;
